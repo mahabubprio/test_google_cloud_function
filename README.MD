@@ -47,3 +47,5 @@ CMD ["bundle", "exec", "functions-framework-ruby", "--target",  "my_http_functio
 ```
 
 ## CI/CD:
+
+- Added the `.github/workflows` in the folder.
