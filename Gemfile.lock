@@ -1,0 +1,42 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activemodel (7.0.6)
+      activesupport (= 7.0.6)
+    activerecord (7.0.6)
+      activemodel (= 7.0.6)
+      activesupport (= 7.0.6)
+    activesupport (7.0.6)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+    cloud_events (0.7.0)
+    concurrent-ruby (1.2.2)
+    dotenv (2.8.1)
+    functions_framework (1.4.1)
+      cloud_events (>= 0.7.0, < 2.a)
+      puma (>= 4.3.0, < 7.a)
+      rack (>= 2.1, < 4.a)
+    i18n (1.14.1)
+      concurrent-ruby (~> 1.0)
+    minitest (5.18.1)
+    mysql2 (0.5.5)
+    nio4r (2.5.9)
+    puma (6.3.0)
+      nio4r (~> 2.0)
+    rack (3.0.8)
+    tzinfo (2.0.6)
+      concurrent-ruby (~> 1.0)
+
+PLATFORMS
+  x86_64-darwin-21
+
+DEPENDENCIES
+  activerecord
+  dotenv
+  functions_framework (~> 1.0)
+  mysql2
+
+BUNDLED WITH
+   2.4.16
